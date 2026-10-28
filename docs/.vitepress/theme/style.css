@@ -1,0 +1,260 @@
+/* Bever brand colors: Petrol on light surfaces, Tide on dark ones, Copper as the single warm accent. */
+:root {
+  --vp-c-brand-1: #12424f;
+  --vp-c-brand-2: #1b5a6b;
+  --vp-c-brand-3: #12424f;
+  --vp-c-brand-soft: rgba(18, 66, 79, 0.1);
+  --bever-copper: #b85a20;
+
+  --vp-home-hero-name-color: #0f1e24;
+  --vp-home-hero-image-background-image: radial-gradient(circle, rgba(124, 195, 205, 0.35), rgba(184, 90, 32, 0.12) 60%, transparent 72%);
+  --vp-home-hero-image-filter: blur(56px);
+
+  --vp-font-family-base: 'Geist Variable', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --vp-font-family-mono: 'Geist Mono Variable', ui-monospace, 'SFMono-Regular', Menlo, monospace;
+  --vp-button-brand-bg: #12424f;
+  --vp-button-brand-hover-bg: #1b5a6b;
+  --vp-button-brand-active-bg: #0f1e24;
+}
+
+.dark {
+  --vp-c-brand-1: #7cc3cd;
+  --vp-c-brand-2: #9dd3db;
+  --vp-c-brand-3: #5aa9b4;
+  --vp-c-brand-soft: rgba(124, 195, 205, 0.14);
+  --vp-c-bg: #0f1e24;
+  --vp-c-bg-alt: #0b171c;
+  --vp-c-bg-elv: #132730;
+  --vp-c-bg-soft: #132730;
+  --vp-home-hero-name-color: #ffffff;
+  --vp-button-brand-bg: #7cc3cd;
+  --vp-button-brand-text: #0f1e24;
+  --vp-button-brand-hover-bg: #9dd3db;
+  --vp-button-brand-hover-text: #0f1e24;
+  --vp-button-brand-active-bg: #5aa9b4;
+  --vp-button-brand-active-text: #0f1e24;
+}
+
+.VPHero .text {
+  font-size: clamp(40px, 7vw, 68px);
+  line-height: 1.05;
+  letter-spacing: -0.035em;
+  font-weight: 700;
+  max-width: 680px;
+}
+
+.VPHero .tagline {
+  max-width: 580px;
+  font-size: 19px;
+  line-height: 1.6;
+}
+
+/* Homepage sections below the hero. */
+.bever-home {
+  max-width: 1152px;
+  margin: 0 auto;
+  padding: 0 24px 96px;
+}
+
+.bever-demo-note {
+  text-align: center;
+  font-size: 14px;
+  color: var(--vp-c-text-2);
+}
+
+.bever-section {
+  margin-top: 112px;
+}
+
+.bever-home h2 {
+  margin: 0 0 16px;
+  padding: 0;
+  border: 0;
+  font-size: clamp(28px, 4vw, 40px);
+  line-height: 1.15;
+  letter-spacing: -0.025em;
+  font-weight: 700;
+}
+
+.bever-home h2 + p {
+  max-width: 720px;
+  font-size: 17px;
+  color: var(--vp-c-text-2);
+}
+
+.bever-eyebrow {
+  margin: 0 0 10px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--bever-copper);
+}
+
+.dark .bever-eyebrow {
+  color: #e8a274;
+}
+
+.bever-compare,
+.bever-ai,
+.bever-start {
+  display: grid;
+  gap: 20px;
+  margin-top: 32px;
+  align-items: start;
+}
+
+@media (min-width: 960px) {
+  .bever-compare,
+  .bever-start {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .bever-ai {
+    grid-template-columns: 6fr 5fr;
+  }
+}
+
+.bever-card,
+.bever-prompt {
+  padding: 24px;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 14px;
+  background: var(--vp-c-bg-soft);
+}
+
+.bever-card-accent,
+.bever-prompt {
+  border-color: var(--vp-c-brand-1);
+  box-shadow: 0 0 0 4px var(--vp-c-brand-soft);
+}
+
+.bever-card-title {
+  margin: 0 0 12px !important;
+  font-weight: 600;
+}
+
+.bever-card-foot {
+  margin: 16px 0 0 !important;
+  font-size: 14px;
+  color: var(--vp-c-text-2);
+}
+
+.bever-home .bever-files {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.bever-files li {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin: 0;
+  padding: 10px 0;
+  border-bottom: 1px dashed var(--vp-c-divider);
+  font-size: 14px;
+}
+
+.bever-files li:last-child {
+  border-bottom: 0;
+}
+
+.bever-files span {
+  color: var(--vp-c-text-2);
+  text-align: right;
+}
+
+.bever-home div[class*='language-'] {
+  margin: 0 !important;
+}
+
+.bever-prompt-ask {
+  margin: 0 0 14px !important;
+  padding: 10px 14px;
+  border-radius: 12px 12px 12px 4px;
+  background: var(--vp-c-bg);
+  border: 1px solid var(--vp-c-divider);
+  font-size: 15px;
+}
+
+.bever-points {
+  display: grid;
+  gap: 24px;
+}
+
+.bever-grid {
+  display: grid;
+  gap: 16px;
+  margin-top: 32px;
+}
+
+@media (min-width: 640px) {
+  .bever-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 960px) {
+  .bever-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.bever-grid > div {
+  padding: 22px;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 14px;
+  background: var(--vp-c-bg-soft);
+}
+
+.bever-home h3 {
+  margin: 0 0 6px;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.bever-points p,
+.bever-grid p {
+  margin: 0;
+  font-size: 14.5px;
+  color: var(--vp-c-text-2);
+}
+
+.bever-start h2 + p {
+  font-size: 16px;
+}
+
+.bever-home .bever-link {
+  font-weight: 600;
+  text-decoration: none;
+}
+
+@media (max-width: 640px) {
+  .bever-home {
+    padding: 0 16px 64px;
+  }
+
+  .bever-section {
+    margin-top: 72px;
+  }
+}
+
+/* Screenshots of generated apps. */
+.bever-shot {
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 12px;
+  box-shadow: 0 12px 40px rgba(15, 30, 36, 0.12);
+}
+
+.bever-shot-dark {
+  display: none;
+}
+
+.dark .bever-shot-light {
+  display: none;
+}
+
+.dark .bever-shot-dark {
+  display: block;
+}

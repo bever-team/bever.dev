@@ -5,7 +5,7 @@ titleTemplate: Bever
 
 hero:
   text: Business logic as code.
-  tagline: Write what your business needs in one readable file. Bever turns it into a validated, authorized API and a working web app. Your team reads it, your AI writes it, and nothing hides in the plumbing.
+  tagline: Write what your business needs in one readable file. Bever turns it into a validated, authorized API and a working web app, on defaults you can replace. Your team reads it, your AI writes it, and nothing hides in the plumbing.
   image:
     light: /brand/bever-mark.svg
     dark: /brand/bever-mark.svg
@@ -101,6 +101,47 @@ Coding agents spend most of their effort reading and rewriting boilerplate. With
   <div>
     <h3>Guardrails the agent cannot skip</h3>
     <p>The compiler rejects mistakes with file, line, and column. The server checks every permission, whatever the agent wrote. Destructive migrations wait for your consent.</p>
+  </div>
+</div>
+
+</div>
+
+</section>
+
+<section id="customizable" class="bever-section">
+
+<p class="bever-eyebrow">Customizable</p>
+
+## Opinionated defaults you can replace
+
+`bever new` picks a stack so you can start in minutes: Nuxt for the app, SQLite for the data, and ASP.NET Core for the server. None of it is locked in. The model is the contract, and every layer around it is a default you can change.
+
+<div class="bever-compare">
+
+<div class="bever-card">
+<p class="bever-card-title">The default, and how to change it</p>
+<ul class="bever-files">
+  <li>Nuxt web app<span>any framework, through <code>@bever/sdk</code> or the HTTP API</span></li>
+  <li>SQLite<span>your own <code>IBeverDatabaseProvider</code></span></li>
+  <li>shadcn-vue components<span>ordinary files in <code>client/</code></span></li>
+  <li>Theme<span>CSS variables for colors, radius, and font</span></li>
+  <li>ASP.NET Core server<span>your own endpoints, middleware, and services</span></li>
+</ul>
+<p class="bever-card-foot"><a class="bever-link" href="/guide/customizing">Read the customizing guide →</a></p>
+</div>
+
+<div class="bever-points">
+  <div>
+    <h3>The rules stay with the model</h3>
+    <p>Validation and permissions run in the server, whatever client or database you use. A replacement decides where data is stored or how it looks, never whether a request is allowed.</p>
+  </div>
+  <div>
+    <h3>Nothing to eject</h3>
+    <p><code>client/</code> and <code>server/</code> are ordinary projects in your repository, and Bever comes in as packages. Replace one page and the model still drives the rest.</p>
+  </div>
+  <div>
+    <h3>A documented contract</h3>
+    <p>The compiled model is JSON in a <a href="/reference/semantic-model">documented format</a>, so your own tools and scripts can read it too.</p>
   </div>
 </div>
 

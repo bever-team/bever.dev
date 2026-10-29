@@ -104,6 +104,12 @@
   align-items: start;
 }
 
+.bever-compare > *,
+.bever-ai > *,
+.bever-start > * {
+  min-width: 0;
+}
+
 @media (min-width: 960px) {
   .bever-compare,
   .bever-start {

@@ -187,7 +187,7 @@ Coding agents spend most of their effort reading and rewriting boilerplate. With
 Four commands give you a task app with sign-in, projects, and tasks, running locally.
 
 ```sh
-dotnet tool install --global Bever.Cli
+dotnet tool install --global --prerelease Bever.Cli
 bever new "Acme Tasks"
 cd "Acme Tasks"
 bever dev

@@ -1,6 +1,6 @@
 # Roadmap
 
-Bever is young. This page lists what is planned, so you can see where the language is going and what to expect from the compiler today. Planned keywords are reserved: the compiler reports them as *not supported yet* instead of ignoring them.
+Bever is pre-alpha, and the language is expected to change, including what is already implemented (see [Status](/guide/what-is-bever#status)). This page lists what is planned, so you can see where the language is going and what to expect from the compiler today. Planned keywords are reserved: the compiler reports them as *not supported yet* instead of ignoring them.
 
 Discuss priorities and proposals in the [issue tracker](https://github.com/bever-team/bever/issues).
 

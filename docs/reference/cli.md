@@ -1,7 +1,7 @@
 # CLI reference
 
 ```sh
-dotnet tool install --global Bever.Cli
+dotnet tool install --global --prerelease Bever.Cli
 ```
 
 Commands that work on a project find it by looking for a `bev/` folder in the current directory and its parents. `--bev <dir>` chooses the folder explicitly. Database commands use `.bever/bever.db` next to `bev/` unless you pass `--database <path>`.

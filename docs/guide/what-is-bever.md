@@ -43,6 +43,16 @@ Today the language covers entities, typed fields, enums, relationships with dele
 - **Explicit over clever.** Destructive database changes need consent; IDs are never shown to people; missing values are never guessed.
 - **You own the code.** Customization means editing normal Vue and C#, not fighting a generator.
 
+## Status
+
+Bever is pre-alpha. Releases are numbered `0.1.0-prealpha.N` and are published as prerelease packages, so you install them with `--prerelease`.
+
+- **The language will change.** Syntax, defaults, and validation rules can change between releases, and a model that compiles today may not compile with the next release.
+- **The semantic model, HTTP API, SDK, and CLI will change** with it, in ways that break generated clients and code you write against them.
+- **Upgrades are not supported yet.** There is no upgrade path between releases for models, migrations, or projects created by `bever new`.
+
+Use Bever to evaluate it and to give feedback, not for production data. Pin exact versions, and read the changelog before you update. The [roadmap](/roadmap) lists what is planned.
+
 ## License
 
 The language, compiler, runtime, CLI, SDK, and VS Code extension are licensed under the [Apache License 2.0](https://github.com/bever-team/bever/blob/main/LICENSE). Templates and examples are licensed under [MIT No Attribution](https://github.com/bever-team/bever-templates/blob/main/LICENSE), so a project created with `bever new` is entirely yours, with no notice to keep. "Bever" and the Bever logo are [trademarks](https://github.com/bever-team/bever/blob/main/TRADEMARKS.md).

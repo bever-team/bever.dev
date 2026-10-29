@@ -1,5 +1,9 @@
 # Language reference
 
+::: warning Pre-alpha
+The language is expected to change. Constructs, keywords, and defaults described here may change or be removed in the next release. See [Status](/guide/what-is-bever#status).
+:::
+
 This is the complete Bever language, version 0.6. Anything not described here is reported by the compiler as an error; constructs that are planned but not implemented yet are reported as *not supported yet* and listed on the [roadmap](/roadmap).
 
 ## Files and layout

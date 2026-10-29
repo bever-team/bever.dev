@@ -1,5 +1,7 @@
 /* Bever brand colors: Petrol on light surfaces, Tide on dark ones, Copper as the single warm accent. */
 :root {
+  /* Height of the pre-alpha banner; VitePress offsets the nav and sidebar by it. */
+  --vp-layout-top-height: 36px;
   --vp-c-brand-1: #12424f;
   --vp-c-brand-2: #1b5a6b;
   --vp-c-brand-3: #12424f;

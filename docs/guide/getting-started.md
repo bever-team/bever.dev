@@ -1,5 +1,9 @@
 # Getting started
 
+::: warning Pre-alpha
+Bever is pre-alpha. The language and APIs will change in breaking ways between releases, and there is no upgrade path yet. Do not use it for production data. See [Status](/guide/what-is-bever#status).
+:::
+
 ## Requirements
 
 - [.NET 10 SDK](https://dotnet.microsoft.com/download)
@@ -8,11 +12,11 @@
 ## Install the CLI
 
 ```sh
-dotnet tool install --global Bever.Cli
+dotnet tool install --global --prerelease Bever.Cli
 bever --version
 ```
 
-Update it later with `dotnet tool update --global Bever.Cli`.
+Update it later with `dotnet tool update --global --prerelease Bever.Cli`.
 
 ## Create a project
 

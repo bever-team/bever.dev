@@ -3,7 +3,7 @@
 `@bever/sdk` reads Bever semantic models and calls the Bever HTTP API from browsers and Node.js. The generated client uses it; you can use it in any JavaScript or TypeScript project.
 
 ```sh
-npm install @bever/sdk
+npm install @bever/sdk@prealpha
 ```
 
 ## Read a model

@@ -29,7 +29,7 @@ Pronunciation: BEV-er, rhymes with "clever" (proposed).
 
 ## Message
 
-- Tagline: **Business applications as code.**
+- Tagline: **Business logic as code.**
 - Descriptor: An open-source language and framework for business applications.
 - One-liner: Bever compiles compact `.bev` definitions of entities, actions,
   permissions, and rules into a validated, authorized API and a client your

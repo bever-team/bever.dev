@@ -7,7 +7,7 @@ const bev = { ...JSON.parse(readFileSync(new URL('./bev.tmLanguage.json', import
 export default defineConfig({
   title: 'Bever',
   titleTemplate: ':title · Bever',
-  description: 'Business applications as code. An open-source language and framework for business applications.',
+  description: 'Business logic as code. An open-source language and framework for business applications.',
   lang: 'en-US',
   cleanUrls: true,
   // Pages mention the local development URLs of a running app.

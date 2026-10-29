@@ -7,8 +7,8 @@ hero:
   text: Business logic as code.
   tagline: Write what your business needs in one readable file. Bever turns it into a validated, authorized API and a working web app, on defaults you can replace. Your team reads it, your AI writes it, and nothing hides in the plumbing.
   image:
-    light: /brand/bever-mark.svg
-    dark: /brand/bever-mark.svg
+    light: /brand/bever-mark-outline.svg
+    dark: /brand/bever-mark-outline-on-dark.svg
     alt: Bever
   actions:
     - theme: brand
@@ -68,8 +68,6 @@ Action Crud Task
 
 <section class="bever-section">
 
-<p class="bever-eyebrow">Built for AI-assisted development</p>
-
 ## Your AI writes the model, not the plumbing
 
 Coding agents spend most of their effort reading and rewriting boilerplate. With Bever, a feature is a few lines in a `.bev` file. The server and the app read the compiled model, so the agent has nothing else to keep in sync.
@@ -110,8 +108,6 @@ Coding agents spend most of their effort reading and rewriting boilerplate. With
 
 <section id="customizable" class="bever-section">
 
-<p class="bever-eyebrow">Customizable</p>
-
 ## Opinionated defaults you can replace
 
 `bever new` picks a stack so you can start in minutes: Nuxt for the app, SQLite for the data, and ASP.NET Core for the server. None of it is locked in. The model is the contract, and every layer around it is a default you can change.
@@ -150,8 +146,6 @@ Coding agents spend most of their effort reading and rewriting boilerplate. With
 </section>
 
 <section class="bever-section">
-
-<p class="bever-eyebrow">What you get</p>
 
 ## A complete application from the model
 

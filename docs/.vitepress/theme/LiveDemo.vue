@@ -357,7 +357,7 @@ onBeforeUnmount(() => clearTimeout(timer))
 .side {
   display: flex;
   flex-direction: column;
-  width: 128px;
+  width: 140px;
   flex-shrink: 0;
   padding: 14px 10px;
   border-right: 1px solid var(--vp-c-divider);
@@ -370,6 +370,7 @@ onBeforeUnmount(() => clearTimeout(timer))
   gap: 8px;
   font-weight: 600;
   margin: 0 4px 16px;
+  white-space: nowrap;
 }
 
 .avatar {

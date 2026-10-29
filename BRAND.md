@@ -49,6 +49,8 @@ Pronunciation: BEV-er, rhymes with "clever" (proposed).
 | [`brand/bever-logo.svg`](docs/public/brand/bever-logo.svg) | Symbol in Copper and Petrol, wordmark in Ink, for light backgrounds. The primary logo. |
 | [`brand/bever-logo-on-dark.svg`](docs/public/brand/bever-logo-on-dark.svg) | Symbol in white with a Copper belly, wordmark in white, for dark backgrounds. |
 | [`brand/bever-mark.svg`](docs/public/brand/bever-mark.svg) | The symbol alone, when the name is already on screen. |
+| [`brand/bever-mark-outline.svg`](docs/public/brand/bever-mark-outline.svg) | The symbol as Ink outlines, for large decorative use on light backgrounds, such as the website hero. |
+| [`brand/bever-mark-outline-on-dark.svg`](docs/public/brand/bever-mark-outline-on-dark.svg) | The same outlines in white, for dark backgrounds. |
 | [`brand/bever-icon.svg`](docs/public/brand/bever-icon.svg) | The dark symbol on an Ink tile: favicons, app and file icons, avatars. |
 
 The symbol is a seated beaver that also reads as a lowercase b. The head and
